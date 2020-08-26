@@ -77,6 +77,10 @@ dependencies {
     implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
     implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
 
+    // temi
+    // https://github.com/robotemi/sdk
+    implementation 'com.robotemi:sdk:0.10.+'
+
     // Unit testing
     testImplementation 'androidx.test.ext:junit:1.1.1'
     testImplementation 'androidx.test:rules:1.2.0'

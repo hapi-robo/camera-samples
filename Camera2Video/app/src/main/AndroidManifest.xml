@@ -55,6 +55,11 @@
                 android:resource="@xml/file_paths"/>
         </provider>
 
+        <!-- temi Meta Data -->
+        <meta-data
+            android:name="com.robotemi.sdk.metadata.SKILL"
+            android:value="@string/app_name" />
+
     </application>
 
 </manifest>
